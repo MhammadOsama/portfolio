@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="background" x1="8" y1="5" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34343B"/>
+      <stop offset="1" stop-color="#171719"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="19" y1="13" x2="46" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F08A6F"/>
+      <stop offset=".52" stop-color="#D85743"/>
+      <stop offset="1" stop-color="#A93A2D"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="19" y1="49" x2="29" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A93A2D"/>
+      <stop offset="1" stop-color="#6F281F"/>
+    </linearGradient>
+    <linearGradient id="fold" x1="38" y1="12" x2="49" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1DA"/>
+      <stop offset="1" stop-color="#F2B39A"/>
+    </linearGradient>
+    <linearGradient id="monogram" x1="22" y1="22" x2="43" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#53251D"/>
+      <stop offset="1" stop-color="#2B130F"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="17" fill="url(#background)"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" fill="none" stroke="#C9C9D2" stroke-opacity=".2"/>
+  <path d="m14 18 25-7 15 8v29l-29 12-11-8z" fill="#100F11" opacity=".48"/>
+  <path d="m14 47 11 8 29-11v6L25 61l-11-8z" fill="url(#edge)"/>
+  <path d="m49 20 5-3v29l-5 4z" fill="#852E24"/>
+  <path d="m14 18 25-7 10 9v26l-24 9-11-8z" fill="url(#paper)"/>
+  <path d="m14 18 10 7v30l-10-8z" fill="#F9E6CF" opacity=".16"/>
+  <path d="m39 11 10 9-10 3z" fill="url(#fold)"/>
+  <path d="M39 11v12l10-3" fill="none" stroke="#A93A2D" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".72" stroke-width="1.4"/>
+  <path d="m21 43 1-17 10 10 10-15v18" fill="none" stroke="#F9E6CF" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".24" stroke-width="6"/>
+  <path d="m21 43 1-17 10 10 10-15v18" fill="none" stroke="url(#monogram)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.3"/>
+  <path d="m17 20 18-5" fill="none" stroke="#FFF1DA" stroke-linecap="round" stroke-opacity=".52" stroke-width="1.4"/>
+</svg>
